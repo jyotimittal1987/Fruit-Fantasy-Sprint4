@@ -1,0 +1,9 @@
+<app-fruit-list [fruits]="fruits"></app-fruit-list>
+<app-search (searchTextChanged)="onSearchTextChanged($event)"></app-search>
+<div *ngIf="displayNoRecords" style="padding:100px;">
+    <h3 style="text-align:center">We couldn't find data for
+           <span style="color:red">"{{searchValue}}"</span><br>
+           Make sure the label,type or status are spelled and formatted correctly
+    </h3>
+</div>
+

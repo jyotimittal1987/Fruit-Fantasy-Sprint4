@@ -1,0 +1,16 @@
+{
+  "fruits": [
+    {
+      "name": "apple",
+      "price": "2",
+      "unit": "piece"
+    },
+    {
+      "name": "banana",
+      "price": "1",
+      "unit": "piece"
+    }
+
+
+]
+}
