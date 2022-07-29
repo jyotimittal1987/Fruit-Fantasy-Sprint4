@@ -1,0 +1,40 @@
+{
+  "fruits": [
+    {
+      "id": 1,
+      "name": "apple",
+      "price": "2",
+      "unit": "piece"
+    },
+    {
+      "id": 2,
+      "name": "banana",
+      "price": "1",
+      "unit": "piece"
+    },
+    {
+      "name": "orange",
+      "price": "1",
+      "unit": "1",
+      "id": 3
+    },
+    {
+      "name": "apricot",
+      "price": "1",
+      "unit": "1",
+      "id": 4
+    },
+    {
+      "name": "banana",
+      "price": "1",
+      "unit": "1",
+      "id": 5
+    },
+    {
+      "name": "apple",
+      "price": "1",
+      "unit": "1",
+      "id": 6
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+<fieldset>
+    <legend><b>Add New Fruit</b></legend>
+    <label class="field-label">Fruit Name : </label>
+    <input type="text" id="fruit-name" [(ngModel)]="fruit.name" name="name">
+
+    <br />
+    <label class="field-label">Price in USD :</label>
+    <input type="text" id="fruit-price" [(ngModel)]="fruit.price" name="price">
+    <br />
+
+    <label class="field-label">Price for Per : </label>
+    <input type="text" id="unit" [(ngModel)]="fruit.unit" name="unit">
+
+    <div class="save-button">
+        <input type="button" value="Save" (click)="saveFruit()">
+    </div>
+</fieldset>

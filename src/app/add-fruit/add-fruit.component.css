@@ -1,0 +1,42 @@
+fieldset{
+    margin-top: 400px;
+    background-color: #eeeeee;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 50px;
+}
+div {
+    display: inline;
+    padding: 3px;
+    margin: 10px;
+    border-radius: 5px;
+    max-height: 100px;
+    height: 100%;
+    width: 50px;
+}
+h4 {
+    margin-left: 50px;
+    margin-top: 2px;
+}
+.field {
+    margin-top: 5px;
+    display: flex;
+}
+.field-label {
+    margin-left: 10px;
+    width: 100px;
+}
+.save-button {
+    margin-top: 5px;
+    display: flex;
+}
+.save-button input{
+    align-items: flex-end;
+}
+input{
+    margin:5px;
+    margin-left: 10px;
+   
+}
